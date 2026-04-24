@@ -651,36 +651,6 @@ layout: two-cols
 ---
 layout: center
 class: text-center
----
-
-# You don't need custom integrations for 80% of typical needs.
-
-<div class="text-gray-300 mt-4 mb-8">The servers already exist. The question is which ones to connect first.</div>
-
-<div class="grid grid-cols-4 gap-4">
-  <div class="p-4 bg-gray-800/60 rounded-xl border border-green-500/30">
-    <div class="font-bold text-green-400">GitHub MCP</div>
-  </div>
-  <div class="p-4 bg-gray-800/60 rounded-xl border border-green-500/30">
-    <div class="font-bold text-green-400">Context7</div>
-  </div>
-  <div class="p-4 bg-gray-800/60 rounded-xl border border-green-500/30">
-    <div class="font-bold text-green-400">Playwright</div>
-  </div>
-  <div class="p-4 bg-gray-800/60 rounded-xl border border-green-500/30">
-    <div class="font-bold text-green-400">Sentry MCP</div>
-  </div>
-</div>
-
-<div class="mt-6 text-gray-400 text-sm">Starter stack for web teams</div>
-
-<!--
-Для більшості типових потреб web і mobile команди — все вже є. Базовий стек, з якого можна почати: GitHub MCP, Context7, Playwright і Sentry. Figma і Mobile MCP — наступний крок.
--->
-
----
-layout: center
-class: text-center
 transition: fade
 ---
 
