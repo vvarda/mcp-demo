@@ -1159,40 +1159,6 @@ That's enough to validate or kill the idea in <strong>2–3 weeks</strong>.
 ---
 layout: center
 class: text-center
----
-
-# MCP Is the Foundation of a New Engineering Discipline.
-
-<img src="/b7-s6-takeaway.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
-
-<div class="text-gray-300 mt-4 max-w-2xl mx-auto">
-Companies that master building <strong>secure, efficient, and scalable context networks</strong> will lead in the era of autonomous AI.
-</div>
-
-<div class="grid grid-cols-3 gap-4 mt-8 text-left">
-  <div class="p-4 bg-blue-900/30 rounded-xl border border-blue-500/30">
-    <div class="font-bold text-blue-400 mb-1">Standardize</div>
-    <div class="text-sm">Use MCP servers instead of custom sync scripts</div>
-  </div>
-  <div class="p-4 bg-teal-900/30 rounded-xl border border-teal-500/30">
-    <div class="font-bold text-teal-400 mb-1">Secure</div>
-    <div class="text-sm">Every mcp.json entry deserves the same review as a new PR</div>
-  </div>
-  <div class="p-4 bg-purple-900/30 rounded-xl border border-purple-500/30">
-    <div class="font-bold text-purple-400 mb-1">Automate routines</div>
-    <div class="text-sm">Figma MCP + Playwright MCP can cut the most routine stages in half</div>
-  </div>
-</div>
-
-<div class="mt-8 text-xl text-yellow-400 font-bold">From selling hours → to selling outcomes.</div>
-
-<!--
-MCP у 2026-му — це фундамент нової інженерної дисципліни. Для аутсорс-бізнесу: від продажу годин до продажу результату. Не "ми витратили 40 годин", а "ось результат, досягнутий за допомогою системи". Це конкурентна перевага.
--->
-
----
-layout: center
-class: text-center
 transition: fade
 ---
 
