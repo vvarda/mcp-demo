@@ -121,7 +121,7 @@ Flutter: Mobile MCP працює з Flutter-додатками через Semant
 
 # The N×M Problem
 
-<img src="/slide-02-nxm-problem.png" class="w-full rounded-xl mt-2" style="max-height: 380px; object-fit: cover;" />
+<img src="/slide-02-nxm-problem.png" class="w-full rounded-xl mt-2" style="max-height: 370px; object-fit: contain; object-position: top;" />
 
 <div class="grid grid-cols-2 gap-8 mt-4 text-sm">
   <div class="text-red-400">N tools × M clients = <strong>N×M</strong> custom integrations</div>
