@@ -1,30 +1,23 @@
 /*
- * Global Slidev overrides
- * Automatically imported by Slidev (place next to slides.md)
+ * Global Slidev overrides — corrected selectors
  */
 
-/* ─── DEFAULT layout: vertically center all content ──────────────── */
-.slidev-layout.default {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+/* TWO-COLS layout: actual CSS class is "two-columns" */
+.slidev-layout.two-columns {
+  align-items: center;
+  align-content: center;
+  column-gap: 3rem;
 }
 
-/* ─── TWO-COLS layout: vertically center columns, add breathing room ─ */
-.slidev-layout.two-cols {
-  align-items: center;      /* each column's content centered at the same Y */
-  align-content: center;    /* center the whole grid block within the slide */
-  column-gap: 3rem;         /* wider gap between text and image */
-}
-
-/* Right-column images: let centering handle vertical position */
-.slidev-layout.two-cols > div:last-child {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.slidev-layout.two-cols > div:last-child img {
+.slidev-layout.two-columns .col-right img {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/* DEFAULT layout: add height and flex centering */
+.slidev-layout.default {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
