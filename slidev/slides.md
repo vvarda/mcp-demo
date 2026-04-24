@@ -1107,40 +1107,6 @@ MCP — не єдиний протокол у стеку. Є чотири рів
 -->
 
 ---
-layout: two-cols
----
-
-# A2A: When It Becomes Relevant
-
-<img src="/b7-s3-a2a.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
-
-**A2A v1.0 — Q1 2026. 150+ organizations in production.**
-
-Already supported: Microsoft, AWS, Salesforce, SAP, ServiceNow, Google ADK, LangGraph, CrewAI, LlamaIndex.
-
-**How it works:**
-- Each agent publishes an **Agent Card** at `/.well-known/agent-card.json`
-- Capability negotiation + task lifecycle between agents
-
-> *"MCP first for sharing context; then A2A for dynamic interaction."* — ISG analyst
-
-::right::
-
-<div class="mt-4 space-y-3">
-  <div class="font-bold text-amber-400 mb-2">When it's relevant:</div>
-  <div class="p-3 bg-green-900/30 rounded-lg border border-green-500/30 text-sm">
-    ✅ Integrating multi-vendor enterprise (Salesforce ↔ ServiceNow ↔ SAP agents)
-  </div>
-  <div class="p-3 bg-red-900/30 rounded-lg border border-red-500/30 text-sm">
-    ❌ When you're still building your first MCP setup
-  </div>
-</div>
-
-<!--
-A2A вже в production у 150+ організаціях. Практична порада: спочатку MCP для sharing context, потім A2A для dynamic interaction. Для аутсорс-команди у 2026 році — 95% use cases закриваються MCP.
--->
-
----
 
 # Pilot This Month
 
