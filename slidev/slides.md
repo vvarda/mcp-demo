@@ -181,6 +181,8 @@ class: text-center
 
 <div class="text-gray-400 mt-4">Block 2 of 8</div>
 
+<img src="/b2-s0-title.png" class="absolute inset-0 w-full h-full object-cover opacity-30 -z-10" />
+
 <!--
 Тепер заглибимось у те, як MCP влаштований зсередини. Три рівні, три примітиви, два транспорти — і жодної магії.
 -->
@@ -309,6 +311,8 @@ class: text-center
 
 # Remember the Three Primitives
 
+<img src="/b2-s6-takeaway.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
+
 <div class="grid grid-cols-3 gap-6 mt-8">
   <div class="p-6 bg-blue-900/40 rounded-xl border border-blue-500/30">
     <div class="text-3xl mb-2">🔧</div>
@@ -341,6 +345,8 @@ class: text-center
 # Web & Mobile Ecosystem
 
 <div class="text-gray-400 mt-4">Block 3 of 8</div>
+
+<img src="/b3-s0-title.png" class="absolute inset-0 w-full h-full object-cover opacity-30 -z-10" />
 
 <!--
 Цей блок — про конкретні MCP-сервери, які вже зараз змінюють щоденну роботу web і mobile команд. Не теорія — інструменти, які можна поставити сьогодні.
@@ -520,6 +526,8 @@ class: text-center
 ---
 
 # You don't need custom integrations for 80% of typical needs.
+
+<img src="/b3-s8-takeaway.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 <div class="text-gray-300 mt-4 mb-8">The servers already exist. The question is which ones to connect first.</div>
 
