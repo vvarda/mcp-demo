@@ -1148,20 +1148,12 @@ That's enough to validate or kill the idea in <strong>2–3 weeks</strong>.
   </div>
   <div class="p-3 bg-gray-800/60 rounded-lg text-sm flex gap-2 items-start">
     <span class="text-red-400 mt-0.5">⏸</span>
-    <div><strong>Multi-agent A2A workflows</strong> — expensive to maintain, mostly demos</div>
-  </div>
-  <div class="p-3 bg-gray-800/60 rounded-lg text-sm flex gap-2 items-start">
-    <span class="text-red-400 mt-0.5">⏸</span>
     <div><strong>MCP as core architecture of a client-facing product</strong> — fine for internal, not consumer-facing</div>
-  </div>
-  <div class="p-3 bg-gray-800/60 rounded-lg text-sm flex gap-2 items-start">
-    <span class="text-red-400 mt-0.5">⏸</span>
-    <div><strong>Replacing QA teams with AI agents</strong> — the economics don't add up</div>
   </div>
 </div>
 
 <!--
-Що не варто робити прямо зараз. Self-hosted remote MCP сервери — stateful HTTP поки погано масштабується. Публікація клієнтського API як MCP-сервера — security surface завеликий. Multi-agent A2A — дорого підтримувати. Заміна QA-команди — не спрацьовує.
+Що не варто робити прямо зараз. Self-hosted remote MCP сервери — stateful HTTP поки погано масштабується. Публікація клієнтського API як MCP-сервера — security surface завеликий. MCP як основа клієнтського продукту — добре для внутрішнього використання, але не для consumer-facing.
 -->
 
 ---
