@@ -11,7 +11,8 @@ const props = defineProps({
 
 <template>
   <div
-    class="slidev-layout two-columns w-full h-full grid grid-cols-2 items-center content-center gap-x-12"
+    class="slidev-layout two-columns w-full h-full grid grid-cols-2 gap-x-12"
+    style="align-items: center; align-content: center;"
     :class="props.layoutClass"
   >
     <div class="col-left" :class="props.class">
