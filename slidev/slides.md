@@ -791,7 +791,7 @@ layout: two-cols
 
 # Two Types of Bloat
 
-<img src="/b5-s2-two-types.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
+<img src="/b5-s2-two-types.png" class="absolute inset-0 w-full h-full object-cover opacity-10 -z-10" />
 
 **Schema bloat** — token cost of loading tool *definitions*
 <div class="p-3 bg-gray-800/60 rounded-lg text-sm mb-4">
@@ -999,7 +999,7 @@ layout: two-cols
 
 # The Lethal Trifecta
 
-<img src="/b6-s3-trifecta.png" class="absolute inset-0 w-full h-full object-cover opacity-25 -z-10" />
+<img src="/b6-s3-trifecta.png" class="absolute inset-0 w-full h-full object-cover opacity-10 -z-10" />
 
 **Simon Willison's model — attack becomes near-inevitable when agent has all three:**
 
