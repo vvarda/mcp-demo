@@ -167,7 +167,9 @@ layout: two-cols
 <img src="/slide-06-takeaway.png" class="rounded-xl mt-4 w-full" />
 
 <!--
-Протокольна війна завершилась. MCP виграв на рівні інструментів. A2A від Google доповнює, а не замінює — це вертикальний шар між агентами.
+Коротко: протокольна війна завершилась. MCP виграв на рівні інструментів. Зараз можна будувати на MCP без ризику поставити на переможця-одинака.
+
+Окремо варто сказати про A2A — Agent-to-Agent протокол від Google, анонсований у квітні 2025. Якщо MCP вирішує задачу "агент ↔ інструмент або дані", то A2A — це про те, як один агент може делегувати задачу іншому агенту. Тобто це вищий рівень: не "дістань мені дані з бази", а "вирішуй цю підзадачу, агенте, і поверни результат". Обидва протоколи зараз під Linux Foundation, вони доповнюють, а не замінюють один одного. MCP — горизонтальний шар між агентом і світом інструментів, A2A — вертикальний шар між агентами в багатоагентних системах.
 -->
 
 ---
@@ -453,6 +455,7 @@ layout: two-cols
 | **Purpose** | Drive the browser | Inspect the live page |
 | **Actions** | Click, fill, navigate | LCP, network, performance |
 | **Testing** | E2E, cross-browser | A11y audits, debugging |
+| **Under the hood** | Playwright engine | Puppeteer |
 
 <div class="mt-3 text-amber-400 text-sm">⚠️ Pick one per job — don't install both "just in case".</div>
 
@@ -480,6 +483,7 @@ layout: two-cols
 mobile_list_elements_on_screen
 mobile_click_on_screen_at_coordinates
 mobile_swipe_on_screen
+mobile_take_screenshot
 ```
 
 ::right::
@@ -619,7 +623,7 @@ The real value: AI that sees <strong>ticket + design + code + CI + incidents</st
 | Use Case | What AI does | Measurable KPI |
 |---|---|---|
 | **Engineering copilot** | Ticket + design + code + CI in one workflow | Onboarding time ↓ |
-| **QA triage copilot** | Duplicate clustering, regression suspects | Triage time ↓ |
+| **QA triage copilot** | Duplicate clustering, regression suspects, probable owner | Triage time ↓ |
 | **Delivery / PM copilot** | Weekly risk digest, sprint summaries | Summary prep time ↓ |
 | **Presales / estimation** | Compare RFP against similar past cases | Proposal prep time ↓ |
 
@@ -1080,7 +1084,9 @@ class: text-center
 <div class="mt-6 text-gray-400 text-sm">Clients will ask about MCP security. You need an answer — not "that's Anthropic's problem".</div>
 
 <!--
-Мета-інсайт: сам протокол ці проблеми не вирішує — і це офіційна позиція. Це не баги реалізації, це design trade-offs. Для аутсорс-компанії: клієнти будуть питати про безпеку MCP, і ви маєте мати відповідь.
+Мета-інсайт, яким варто завершити цей блок: сам протокол ці проблеми не вирішує — і це офіційна позиція. Це не баги реалізації, це design trade-offs. Anthropic свідомо залишили це на відповідальності host implementations і операційних політик. Ми не чекаємо патча — ми самі закриваємо це на рівні того, як налаштовуємо і деплоїмо.
+
+Для аутсорс-компанії це означає одне: клієнти будуть питати про безпеку MCP, і ви маєте мати відповідь — не "це проблема Anthropic".
 -->
 
 ---
