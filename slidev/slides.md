@@ -1148,6 +1148,8 @@ class: text-center
 
 <div class="text-gray-400 mt-4">Block 7 of 8</div>
 
+<img src="/b7-s0-title.png" class="absolute inset-0 w-full h-full object-cover opacity-30 -z-10" />
+
 <!--
 Фінальний блок — про те, що робити з усім цим прямо зараз. Що пілотити цього місяця, що зачекати, і куди весь цей стек рухається далі.
 -->
@@ -1155,6 +1157,8 @@ class: text-center
 ---
 
 # Where We Are — April 2026
+
+<img src="/b7-s1-hype-cycle.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 **Past the peak of inflated expectations.**
 
@@ -1185,6 +1189,8 @@ Investing in MCP today = investing in what's already stable, not what might chan
 
 # MCP Is Not Alone: The Protocol Stack
 
+<img src="/b7-s2-protocol-stack.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
+
 **Four layers, four jobs.**
 
 | Protocol | Layer | Answers |
@@ -1207,6 +1213,8 @@ layout: two-cols
 ---
 
 # A2A: When It Becomes Relevant
+
+<img src="/b7-s3-a2a.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 **A2A v1.0 — Q1 2026. 150+ organizations in production.**
 
@@ -1238,6 +1246,8 @@ A2A вже в production у 150+ організаціях. Практична п
 
 # Pilot This Month
 
+<img src="/b7-s4-pilots.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
+
 **Start small. Measure one metric. Prove it.**
 
 | Pilot | Setup | Measure |
@@ -1258,6 +1268,8 @@ That's enough to validate or kill the idea in <strong>2–3 weeks</strong>.
 ---
 
 # Wait 2–4 Quarters
+
+<img src="/b7-s5-wait.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
 
 **Technically possible. Not yet production-safe.**
 
@@ -1294,6 +1306,8 @@ class: text-center
 ---
 
 # MCP Is the Foundation of a New Engineering Discipline.
+
+<img src="/b7-s6-takeaway.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 <div class="text-gray-300 mt-4 max-w-2xl mx-auto">
 Companies that master building <strong>secure, efficient, and scalable context networks</strong> will lead in the era of autonomous AI.
