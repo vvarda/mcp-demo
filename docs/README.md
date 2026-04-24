@@ -1,48 +1,48 @@
-# MCP для LLM — Презентація
+# MCP for LLMs — Presentation
 
-## Структура матеріалів
+## Overview
 
-> Цей файл — точка входу. Коли матеріали будуть зібрані, тут буде зміст із посиланнями на всі блоки.
+> This file is the entry point. It contains the table of contents with links to all blocks.
 
 ---
 
-## Блоки (плануються)
+## Blocks
 
-| # | Назва блоку | Файл | Статус |
+| # | Block Title | File | Status |
 |---|-------------|------|--------|
-| 1 | MCP & The State of AI Tooling in 2026 | [01-mcp-state-2026.md](./01-mcp-state-2026.md) | готово |
-| 2 | Anatomy of MCP | [02-anatomy.md](./02-anatomy.md) | готово |
-| 3 | Web & Mobile Ecosystem | [03-web-mobile-ecosystem.md](./03-web-mobile-ecosystem.md) | готово |
-| 4 | Delivery / PM / Observability | [04-delivery-pm-observability.md](./04-delivery-pm-observability.md) | готово |
-| 5 | Token Bloat | [05-token-bloat.md](./05-token-bloat.md) | готово |
-| 6 | Security | [06-security.md](./06-security.md) | готово |
-| 7 | Now & Future | [07-now-and-future.md](./07-now-and-future.md) | готово |
-| 8 | Sources | [08-sources.md](./08-sources.md) | готово |
+| 1 | MCP & The State of AI Tooling in 2026 | [01-mcp-state-2026.md](./01-mcp-state-2026.md) | done |
+| 2 | Anatomy of MCP | [02-anatomy.md](./02-anatomy.md) | done |
+| 3 | Web & Mobile Ecosystem | [03-web-mobile-ecosystem.md](./03-web-mobile-ecosystem.md) | done |
+| 4 | Delivery / PM / Observability | [04-delivery-pm-observability.md](./04-delivery-pm-observability.md) | done |
+| 5 | Token Bloat | [05-token-bloat.md](./05-token-bloat.md) | done |
+| 6 | Security | [06-security.md](./06-security.md) | done |
+| 7 | Now & Future | [07-now-and-future.md](./07-now-and-future.md) | done |
+| 8 | Sources | [08-sources.md](./08-sources.md) | done |
 
 ---
 
-## Структура слайдів
+## Slide Structure
 
-Кожен розділ починається з **title slide** — один слайд лише з назвою розділу. Після нього йдуть слайди з коротким саммарі по темі.
+Each block starts with a **title slide** — one slide with the block name only. Content slides follow with short summaries and key points.
 
 ```
-[Title Slide]  ←  назва розділу, нічого більше
-[Slide 1]      ←  коротке саммарі / тези
+[Title Slide]  ←  block name, nothing else
+[Slide 1]      ←  short summary / key points
 [Slide 2]
 ...
-[Title Slide]  ←  наступний розділ
+[Title Slide]  ←  next block
 ...
 ```
 
-## Мовний формат
+## Language Format
 
-- **Слайди / контент** — англійська мова
-- **"Що озвучити"** (нотатки доповідача) — українська мова
+- **Slides / content** — English
+- **Speaker notes** (`🗣`) — Ukrainian
 
-## Формат фінального виходу
+## Output Format
 
-- [ ] Сайт / слайди — ще вирішується
+- [x] Slidev — `slidev/slides.md`
 
 ---
 
-*Матеріали додаються поступово.*
+*Blocks are added incrementally.*
