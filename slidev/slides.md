@@ -910,41 +910,6 @@ MCP має системні вразливості, і вендор офіцій
 -->
 
 ---
-layout: two-cols
----
-
-# The Lethal Trifecta
-
-<img src="/b6-s3-trifecta.png" class="absolute inset-0 w-full h-full object-cover opacity-10 -z-10" />
-
-**Simon Willison's model — attack becomes near-inevitable when agent has all three:**
-
-<div class="space-y-3 mt-4">
-  <div class="p-3 bg-red-900/30 rounded-lg border border-red-500/30">
-    <span class="font-bold text-red-400">1.</span> Access to <strong>private data</strong>
-  </div>
-  <div class="p-3 bg-red-900/30 rounded-lg border border-red-500/30">
-    <span class="font-bold text-red-400">2.</span> <strong>Untrusted input</strong> (web pages, user files, external APIs)
-  </div>
-  <div class="p-3 bg-red-900/30 rounded-lg border border-red-500/30">
-    <span class="font-bold text-red-400">3.</span> An <strong>exfiltration channel</strong> (outbound HTTP, email, any write tool)
-  </div>
-</div>
-
-::right::
-
-<div class="mt-4 space-y-2">
-  <div class="font-bold text-amber-400 mb-3">Recent CVEs in the wild:</div>
-  <div class="p-2 bg-gray-800/60 rounded text-xs font-mono">CVE-2025-49596 — MCP Inspector RCE<br/><span class="text-gray-400">CVSS 9.4 — just by visiting a malicious site</span></div>
-  <div class="p-2 bg-gray-800/60 rounded text-xs font-mono">CVE-2026-25536 — TypeScript SDK<br/><span class="text-gray-400">cross-client data leak via Streamable HTTP</span></div>
-  <div class="p-2 bg-gray-800/60 rounded text-xs font-mono">CVE-2025-68143/144/145<br/><span class="text-gray-400">prompt injection via mcp-server-git README</span></div>
-</div>
-
-<!--
-Simon Willison описав "смертельне тріо": коли агент одночасно має доступ до приватних даних, отримує недовірений ввід і має канал для ексфільтрації — атака майже гарантовано спрацює. CVE-2025-68143: достатньо щоб агент прочитав шкідливий README.
--->
-
----
 
 # Team Checklist
 
