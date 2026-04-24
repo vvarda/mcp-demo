@@ -935,6 +935,8 @@ class: text-center
 
 <div class="text-gray-400 mt-4">Block 6 of 8</div>
 
+<img src="/b6-s0-title.png" class="absolute inset-0 w-full h-full object-cover opacity-30 -z-10" />
+
 <!--
 MCP має системні вразливості, і вендор офіційно каже "це не баг". Важливо розуміти threat model перш ніж підключати будь-який сервер.
 -->
@@ -942,6 +944,8 @@ MCP має системні вразливості, і вендор офіцій
 ---
 
 # The OX Security Incident — April 2026
+
+<img src="/b6-s1-incident.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 **Architectural RCE in official Anthropic MCP SDKs.**
 
@@ -975,6 +979,8 @@ MCP має системні вразливості, і вендор офіцій
 
 # Attack Classes
 
+<img src="/b6-s2-attacks.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
+
 | Attack | How it works |
 |---|---|
 | **Prompt injection** | AI reads malicious content (issue, PDF, README) and executes hidden instructions |
@@ -992,6 +998,8 @@ layout: two-cols
 ---
 
 # The Lethal Trifecta
+
+<img src="/b6-s3-trifecta.png" class="absolute inset-0 w-full h-full object-cover opacity-25 -z-10" />
 
 **Simon Willison's model — attack becomes near-inevitable when agent has all three:**
 
@@ -1023,6 +1031,8 @@ Simon Willison описав "смертельне тріо": коли агент
 ---
 
 # Team Checklist
+
+<img src="/b6-s4-checklist.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
 
 <div class="grid grid-cols-2 gap-3 mt-2">
   <div class="p-3 bg-gray-800/60 rounded-lg text-sm flex gap-2">
@@ -1064,6 +1074,8 @@ layout: two-cols
 
 # OWASP MCP Top 10
 
+<img src="/b6-s5-owasp.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
+
 **The living security standard for MCP — beta pilot 2026.**
 
 | # | Category |
@@ -1100,6 +1112,8 @@ class: text-center
 ---
 
 # The Protocol Cannot Fix This — And That's Official.
+
+<img src="/b6-s6-takeaway.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 <div class="mt-6 p-4 bg-gray-800/60 rounded-xl max-w-xl mx-auto text-left">
   <div class="text-gray-300 text-sm">MCP's security model relies on host implementations and operational policy — not the protocol itself.</div>
