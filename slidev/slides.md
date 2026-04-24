@@ -350,8 +350,6 @@ class: text-center
 
 # Remember the Three Primitives
 
-<img src="/b2-s6-takeaway.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
-
 <div class="grid grid-cols-3 gap-6 mt-8">
   <div class="p-6 bg-blue-900/40 rounded-xl border border-blue-500/30">
     <div class="text-3xl mb-2">🔧</div>
