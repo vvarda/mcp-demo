@@ -1,0 +1,14 @@
+{
+  "name": "mcp-slides",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev slides.md --open --port 3030",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.14.2",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}

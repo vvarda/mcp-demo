@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Slidev build output
+slidev/dist/
+slidev/.slidev/
+
+# macOS
+.DS_Store
+
+# Editor
+.cursor/
