@@ -102,3 +102,4 @@
 | Anthropic Academy — Advanced MCP Topics | [anthropic.skilljar.com](https://anthropic.skilljar.com/model-context-protocol-advanced-topics) | Free |
 | DeepLearning.AI — MCP: Build Rich-Context AI Apps | [learn.deeplearning.ai](https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/) | Free |
 | Hugging Face — MCP Course (by Anthropic) | [huggingface.co/learn/mcp-course](https://huggingface.co/learn/mcp-course) | Free |
+`
