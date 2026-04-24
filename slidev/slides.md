@@ -1166,7 +1166,7 @@ Already supported: Microsoft, AWS, Salesforce, SAP, ServiceNow, Google ADK, Lang
 - Each agent publishes an **Agent Card** at `/.well-known/agent-card.json`
 - Capability negotiation + task lifecycle between agents
 
-> *"MCP first for sharing context; then A2A for dynamic interaction."*
+> *"MCP first for sharing context; then A2A for dynamic interaction."* — ISG analyst
 
 ::right::
 
@@ -1304,9 +1304,13 @@ class: text-center
     <div class="font-bold text-blue-400">vulnerablemcp.info</div>
     <div class="text-gray-400">Live CVE database for MCP</div>
   </a>
-  <a href="https://a2a-protocol.org" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
-    <div class="font-bold text-blue-400">a2a-protocol.org</div>
-    <div class="text-gray-400">A2A Protocol Specification</div>
+  <a href="https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-blue-400">MCP 2026 Roadmap</div>
+    <div class="text-gray-400">blog.modelcontextprotocol.io</div>
+  </a>
+  <a href="https://www.linuxfoundation.org/projects/agentic-ai-foundation" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-blue-400">Agentic AI Foundation (AAIF)</div>
+    <div class="text-gray-400">Linux Foundation · 146 members</div>
   </a>
 </div>
 
@@ -1369,6 +1373,14 @@ class: text-center
   <a href="https://www.tigerdata.com/blog/three-tigerdata-engineers-told-us-the-truth-about-mcp-security-is-its-achilles-heel" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
     <div class="font-bold text-amber-400">TigerData — Engineers on MCP Security</div>
     <div class="text-gray-400">Security is its Achilles heel</div>
+  </a>
+  <a href="https://thehackernews.com/2026/04/critical-mcp-rce-anthropic.html" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-red-400">The Hacker News — Critical MCP RCE analysis</div>
+    <div class="text-gray-400">Apr 2026 · OX Security coverage</div>
+  </a>
+  <a href="https://www.theregister.com/2026/04/15/anthropic_mcp_design_flaw/" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-amber-400">The Register — Anthropic won't fix MCP design flaw</div>
+    <div class="text-gray-400">Apr 2026 · Official Anthropic position</div>
   </a>
 </div>
 
