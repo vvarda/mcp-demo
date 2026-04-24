@@ -93,12 +93,12 @@ layout: two-cols
 
 # Ecosystem Growth
 
-| Metric | Nov 2024 | Apr 2026 |
-|---|---|---|
-| Public servers | ~50 | 1,000+ |
-| SDK downloads / mo | < 1M | 150M+ |
-| Standardization | Proprietary | Linux Foundation |
-| Transport | STDIO | Streamable HTTP |
+| Metric | Nov 2024 | Apr 2025 | Apr 2026 |
+|---|---|---|---|
+| Public servers | ~50 | ~700 | 1,000+ |
+| SDK downloads / mo | < 1M | ~50M | 150M+ |
+| Standardization | Proprietary | Community | Linux Foundation |
+| Transport | STDIO | HTTP + SSE | Streamable HTTP |
 
 <div class="mt-4 text-teal-400 font-bold">
   17 months · 50 → 1,000+ servers
@@ -193,9 +193,9 @@ layout: two-cols
 
 | Layer | Role | Examples |
 |---|---|---|
-| **Host** | User-facing environment | Cursor, Claude Desktop |
+| **Host** | User-facing environment | Cursor, Claude Desktop, Claude Code |
 | **Client** | Communication layer | Discovers tools, passes to model |
-| **Server** | Exposes capabilities | Filesystem, GitHub, Figma |
+| **Server** | Exposes capabilities | Filesystem, GitHub, Figma, Jira |
 
 ::right::
 
@@ -1007,6 +1007,9 @@ Simon Willison описав "смертельне тріо": коли агент
     <span class="text-green-400">✅</span> <strong>Audit trail at gateway level</strong> — required for enterprise delivery
   </div>
   <div class="p-3 bg-gray-800/60 rounded-lg text-sm flex gap-2">
+    <span class="text-green-400">✅</span> Treat external config as <strong>untrusted input</strong> — user-influenced MCP config = RCE vector
+  </div>
+  <div class="p-3 bg-gray-800/60 rounded-lg text-sm flex gap-2">
     <span class="text-green-400">✅</span> Use <strong>OWASP MCP Top 10</strong> as your security review checklist
   </div>
 </div>
@@ -1303,7 +1306,7 @@ class: text-center
 
 ---
 
-# Deep Dives & Courses
+# Deep Dives & Videos
 
 <div class="grid grid-cols-2 gap-3 mt-2 text-sm">
   <a href="https://newsletter.pragmaticengineer.com/p/mcp-deepdive" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
@@ -1314,20 +1317,82 @@ class: text-center
     <div class="font-bold text-teal-400">Sentry Blog — Monitoring MCP</div>
     <div class="text-gray-400">Observability deep dive</div>
   </a>
+  <a href="https://www.figma.com/blog/introducing-figma-mcp-server/" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-teal-400">Figma Blog — Dev Mode MCP</div>
+    <div class="text-gray-400">Figma → code workflow</div>
+  </a>
+  <a href="https://truto.one/blog/what-is-mcp-model-context-protocol-the-2026-guide-for-saas-pms" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-teal-400">Truto — 2026 Guide for SaaS PMs</div>
+    <div class="text-gray-400">PM perspective on MCP</div>
+  </a>
+  <a href="https://www.youtube.com/watch?v=kQmXtrmQ5Zg" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-teal-400">MCP Deep Dive Workshop — Anthropic</div>
+    <div class="text-gray-400">YouTube · Mahesh Murag</div>
+  </a>
+  <a href="https://www.youtube.com/watch?v=CQywdSdi5iA" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-teal-400">The Model Context Protocol</div>
+    <div class="text-gray-400">YouTube · Official Anthropic Intro</div>
+  </a>
+</div>
+
+---
+
+# Security & Critical Reading
+
+<div class="grid grid-cols-2 gap-3 mt-2 text-sm">
+  <a href="https://www.ox.security/blog/the-mother-of-all-ai-supply-chains-critical-systemic-vulnerability-at-the-core-of-the-mcp/" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-red-400">OX Security — "Mother of All AI Supply Chains"</div>
+    <div class="text-gray-400">Apr 2026 · The RCE incident</div>
+  </a>
+  <a href="https://vulnerablemcp.info" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-red-400">vulnerablemcp.info</div>
+    <div class="text-gray-400">Live CVE database for MCP</div>
+  </a>
+  <a href="https://unit42.paloaltonetworks.com/model-context-protocol-attack-vectors/" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-red-400">Palo Alto Unit 42 — Attack Vectors</div>
+    <div class="text-gray-400">Dec 2025 · Sampling attack analysis</div>
+  </a>
+  <a href="https://blog.sshh.io/p/everything-wrong-with-mcp" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-amber-400">Shrivu Shankar — Everything Wrong with MCP</div>
+    <div class="text-gray-400">Critical perspective</div>
+  </a>
+  <a href="https://newsletter.victordibia.com/p/no-mcps-have-not-won-yet" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-amber-400">Victor Dibia — No, MCPs have not won (Yet)</div>
+    <div class="text-gray-400">Reality check</div>
+  </a>
+  <a href="https://www.tigerdata.com/blog/three-tigerdata-engineers-told-us-the-truth-about-mcp-security-is-its-achilles-heel" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-amber-400">TigerData — Engineers on MCP Security</div>
+    <div class="text-gray-400">Security is its Achilles heel</div>
+  </a>
+</div>
+
+---
+
+# Courses & Repositories
+
+<div class="grid grid-cols-2 gap-3 mt-2 text-sm">
   <a href="https://anthropic.skilljar.com/introduction-to-model-context-protocol" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
     <div class="font-bold text-teal-400">Anthropic Academy — Intro to MCP</div>
+    <div class="text-gray-400">Free course</div>
+  </a>
+  <a href="https://anthropic.skilljar.com/model-context-protocol-advanced-topics" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-teal-400">Anthropic Academy — Advanced MCP</div>
     <div class="text-gray-400">Free course</div>
   </a>
   <a href="https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
     <div class="font-bold text-teal-400">DeepLearning.AI — MCP Course</div>
     <div class="text-gray-400">Free · Build rich-context AI apps</div>
   </a>
-  <a href="https://www.youtube.com/watch?v=kQmXtrmQ5Zg" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
-    <div class="font-bold text-teal-400">MCP Deep Dive Workshop — Anthropic</div>
-    <div class="text-gray-400">YouTube · Mahesh Murag</div>
-  </a>
   <a href="https://huggingface.co/learn/mcp-course" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
     <div class="font-bold text-teal-400">Hugging Face — MCP Course</div>
     <div class="text-gray-400">Free · by Anthropic</div>
+  </a>
+  <a href="https://github.com/github/github-mcp-server" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-blue-400">github/github-mcp-server</div>
+    <div class="text-gray-400">Official GitHub MCP Server</div>
+  </a>
+  <a href="https://github.com/microsoft/playwright-mcp" class="p-3 bg-gray-800/60 rounded-lg hover:bg-gray-700/60 transition">
+    <div class="font-bold text-blue-400">microsoft/playwright-mcp</div>
+    <div class="text-gray-400">Official Playwright MCP (Microsoft)</div>
   </a>
 </div>
