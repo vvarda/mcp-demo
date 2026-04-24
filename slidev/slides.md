@@ -561,6 +561,8 @@ class: text-center
 
 <div class="text-gray-400 mt-4">Block 4 of 8</div>
 
+<img src="/b4-s0-title.png" class="absolute inset-0 w-full h-full object-cover opacity-30 -z-10" />
+
 <!--
 Цей блок — для PM'ів, delivery leads і тих, хто хоче показати цінність MCP не технічній аудиторії. Менше перемикань між вкладками. Більше часу на реальні рішення.
 -->
@@ -570,6 +572,8 @@ class: text-center
 # The Core Idea
 
 **MCP works best as context federation — not autonomous execution.**
+
+<img src="/b4-s1-core-idea.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
 
 <div class="mt-4 p-4 bg-blue-900/30 rounded-xl border border-blue-500/30 text-lg">
 The real value: AI that sees <strong>ticket + design + code + CI + incidents</strong> simultaneously — not just the file you have open.
@@ -597,6 +601,8 @@ The real value: AI that sees <strong>ticket + design + code + CI + incidents</st
 ---
 
 # Three Scenarios That Actually Work
+
+<img src="/b4-s2-scenarios.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
 
 <div class="space-y-4 mt-2">
 
@@ -628,6 +634,8 @@ The real value: AI that sees <strong>ticket + design + code + CI + incidents</st
 
 # High-ROI Use Cases for Outsource Teams
 
+<img src="/b4-s3-use-cases.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
+
 | Use Case | What AI does | Measurable KPI |
 |---|---|---|
 | **Engineering copilot** | Ticket + design + code + CI in one workflow | Onboarding time ↓ |
@@ -644,6 +652,8 @@ layout: two-cols
 ---
 
 # Observability Layer
+
+<img src="/b4-s4-observability.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 **Sentry AI Monitoring — track your agents in production.**
 
@@ -686,6 +696,8 @@ layout: two-cols
 
 # Anti-patterns
 
+<img src="/b4-s5-antipatterns.png" class="absolute inset-0 w-full h-full object-cover opacity-15 -z-10" />
+
 **Don't say:**
 - ~~"This will replace senior developers"~~
 - ~~"We can fully automate QA with MCP agents"~~
@@ -714,6 +726,8 @@ layout: two-cols
 ---
 
 # Frame Pilots as Workflow Augmentation
+
+<img src="/b4-s6-takeaway.png" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" />
 
 **Start with read-heavy flows. Write actions only through approval.**
 
