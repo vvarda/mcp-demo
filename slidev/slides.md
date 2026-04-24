@@ -1118,7 +1118,7 @@ MCP — не єдиний протокол у стеку. Є чотири рів
 |---|---|---|
 | **GitHub + Figma + Jira + Sentry** | 1 tech lead + 2 devs | Time per ticket before vs after |
 | **Playwright MCP** on project without E2E | 5 user flows | Coverage vs time budget |
-| **Expo MCP** on React Native project | 1 RN project | Developer friction on device testing |
+| **Mobile MCP** on Flutter / Native project | 1 mobile project | Time on device testing & E2E scenarios |
 
 <div class="mt-4 p-3 bg-green-900/30 rounded-lg border border-green-500/30 text-sm">
 Small scope · Measurable baseline · One team · One metric<br/>
@@ -1126,7 +1126,7 @@ That's enough to validate or kill the idea in <strong>2–3 weeks</strong>.
 </div>
 
 <!--
-Що пілотувати вже цього місяця. Перший — підключити GitHub, Figma, Jira і Sentry в IDE одної невеликої команди. Другий — Playwright MCP на проєкті без E2E. Третій — Expo MCP якщо є React Native. Маленький скоуп, вимірюваний baseline, одна метрика.
+Що пілотувати вже цього місяця. Перший — підключити GitHub, Figma, Jira і Sentry в IDE одної невеликої команди. Другий — Playwright MCP на проєкті без E2E. Третій — Mobile MCP якщо є Flutter або нативний iOS/Android проєкт. Маленький скоуп, вимірюваний baseline, одна метрика.
 -->
 
 ---
